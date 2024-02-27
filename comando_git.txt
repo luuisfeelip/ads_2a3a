@@ -30,3 +30,4 @@ git reset --hard id do commit
 git reset --hard head~1(volta uma versao) ~2(volta duas versões) ....
 
 
+
