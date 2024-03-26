@@ -32,7 +32,8 @@ git reset --hard head~1(volta uma versao) ~2(volta duas versões) ....
 git clone endereço do repositorio
 git remote (o proprio github gera esse comando quando criamos o repositorio)
 git push -u origin main(subir para o remoto)
-git pull (verifica se a versao
+git pull (verifica se a versao)
+git branch -m master main (altera a branch master para main)
 
 
 
