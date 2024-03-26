@@ -1,5 +1,5 @@
 class Livro{
-    constructor(pNome, pPreco){
+    constructor, pPreco){
         this.Nome = pNome;
         this.Preco = pPreco
     }
