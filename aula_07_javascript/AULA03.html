@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/submit_form" method="post">
+        <label for="patientName">1) Nome do paciente:</label><br>
+        <input type="text" id="patientName" name="patientName"><br><br>
+    
+        <label for="hospitalRegister">2) Registro Hospitalar:</label><br>
+        <input type="text" id="hospitalRegister" name="hospitalRegister"><br><br>
+    
+        <label for="admissionDate">3) Data de Inclusão:</label><br>
+        <input type="date" id="admissionDate" name="admissionDate"><br><br>
+    
+        <label for="birthDate">4) Data de nascimento:</label><br>
+        <input type="date" id="birthDate" name="birthDate"><br><br>
+    
+        <label for="email">5) Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+    
+        6) Sexo:<br>
+        Feminino<input type="radio" id="female" name="gender" value="female">
+        Masculino<input type="radio" id="male" name="gender" value="male"><br><br>
+    
+        7 ) Raça declarada:<br>
+        <select id="race" name="race">
+            <option value="Branca">Branca</option>
+            <option value="Negra">Negra</option>
+            <option value="Parda">Parda</option>
+            <option value="Amarela">Amarela</option>
+            <option value="Indígena">Indígena</option>
+            <option value="Desconhecida">Desconhecida</option>
+        </select><br><br>
+    
+        8) Como ficou sabendo do estudo?<br>
+        Candidato<input type="checkbox" id="candidate" name="source">
+        Internet<input type="checkbox" id="internet" name="source">
+        Amigos<input type="checkbox" id="friends" name="source">
+        Familiares<input type="checkbox" id="family" name="source">
+        Outros<input type="checkbox" id="others" name="source"><br><br>
+    
+        <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>
