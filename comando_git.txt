@@ -35,5 +35,8 @@ git push -u origin main(subir para o remoto)
 git pull (verifica se a versao)
 git branch -m master main (altera a branch master para main)
 
+--Clonar repositório de uma branch específica
+git clone --branch <nome-da-branch> <url para fzr clone>
+
 
 
